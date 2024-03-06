@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: nginx-service
 spec:
+  #Needed for Minikube to expose service on the host
   type: NodePort
   selector:
     app: nginx
