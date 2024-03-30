@@ -7,7 +7,6 @@ metadata:
     svc: test-nginx
 spec:
   #Needed for Minikube to expose service on the host
-  type: NodePort
   selector:
     app: nginx
   ports:
