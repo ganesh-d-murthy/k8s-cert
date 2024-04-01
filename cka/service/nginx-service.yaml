@@ -6,6 +6,7 @@ metadata:
     app: nginx
     svc: test-nginx
 spec:
+  #Needed for Minikube to expose service on the host
   selector:
     app: nginx
   ports:
